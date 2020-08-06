@@ -1,25 +1,3 @@
-<!--------<!DOCTYPE html> tag que diz que o arquivo é html--
-<html>
-
-    <head><No head vem as configurações--- </head>
-    
-    
-    <body>
-        Todo o conteúdo da página deve vir dentro do body--->
-
-
-    <!-----
-        HTML -  HyperText MarKup Language
-        -----
-    
-
-</html>----->
-
-
-
-
-
-
 
 <!DOCTYPE html>
 <html lang="pt_br">  <!---lang == atributo de linguagem-->
@@ -28,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proffy | Sua plataforma de estudos online </title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/partials/page-landing.css">
     <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&amp;family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet">
 
 
@@ -37,14 +16,32 @@
 
 
     <div id="container">
-        <h1>Proffy</h1>
-    
-        <p>  Sua plataforma de estudos online</p>
+        <div class="logo-container">
+            <img src="/images/images/logo.svg" alt="Proffy">
+            <h2>Sua Plataforma de estudos online</h2>
+        </div>
+        
+        <img class = 'hero-image' src="/images/images/landing.svg" alt="Plataforma de Estudos">
 
 
-        <button>Estudar</button>
-        <button>Dar Aulas</button>
+        <div class="buttons-container">
+            <a class= 'study' href="/study.html">
+            
+                <img src="/images/images/icons/study.svg" alt="Estudar">
+                    Estudar
+            </a>
+            <a class = "dar-aula" href="/dar-aula.html">
+                <img src="/images/images/icons/give-classes.svg" alt="Dar Aula">
+                Dar Aula
+            </a>
 
+
+        </div>
+        
+        <p class="total-connections">Total de 200 conexões já realizadas
+            <img src="/images/images/icons/purple-heart.svg" alt="Coração roxo">
+
+        </p>
 
     </div>
     
